@@ -1,0 +1,79 @@
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data
+data/*
+!data/.gitkeep
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+
+# Models / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+checkpoints/
+models/*
+!models/.gitkeep
+runs/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.env
+
+# Distribution / packaging
+*.manifest
+*.spec
+
+# Testing
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Type checkers
+.mypy_cache/
+.pyright/
+
+# VS Code (на случай, если кто-то откроет проект в другом редакторе)
+.vscode/
